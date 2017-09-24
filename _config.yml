@@ -13,8 +13,6 @@ custom_head: false
 custom_sidebar: true
 custom_footer: false
 include: [wiki/_Sidebar.md,wiki/_Footer.md]
-includes:
-- wiki
 gems:
   - jekyll-sitemap
   - jekyll-mentions
