@@ -1,6 +1,6 @@
 ## 1) Installing the requirements
 
-Make sure your system fits with the [requirements](https://github.com/AzerothCore/azerothcore-wotlk/wiki/Requirements).
+Make sure your system fits with the [Requirements](wiki/Requirements).
 
 
 ## 2) Getting the source files
@@ -84,7 +84,7 @@ Inside the directory where you installed the binaries (e.g. `/home/youruser/azer
 - copy the file `authserver.conf.dist` and rename it to `authserver.conf` ( DO NOT REMOVE THE .dist FILE )
 - copy the file `worldserver.conf.dist` and rename it to `worldserver.conf` ( DO NOT REMOVE THE .dist FILE )
 
-_Please Read [[How to edit .conf files|how-to-work-with-conf-files]] article to understand how configuration files work, and why you need the .dist file too_
+_Please Read [How to edit .conf files](wiki/how-to-work-with-conf-files) article to understand how configuration files work, and why you need the .dist file too_
 
 Open both `authserver.conf` and `worldserver.conf` files and go to the `MYSQL SETTINGS` section, then set the variables:
 
