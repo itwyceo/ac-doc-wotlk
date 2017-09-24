@@ -1,6 +1,6 @@
 ## 1) Installing the requirements
 
-Make sure your system fits with the [Requirements](wiki/Requirements.md).
+Make sure your system fits with the [Requirements](Requirements.md).
 
 
 ## 2) Getting the source files
