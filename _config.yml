@@ -12,7 +12,9 @@ google_cse_token:
 custom_head: false
 custom_sidebar: true
 custom_footer: false
-include: [./wiki/_Sidebar.md,./wiki/_Footer.md]
+include: 
+  - wiki/_Sidebar.md
+  - wiki/_Footer.md
 gems:
   - jekyll-sitemap
   - jekyll-mentions
