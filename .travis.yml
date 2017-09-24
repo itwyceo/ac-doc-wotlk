@@ -1,5 +1,5 @@
 script:
 -
-  git pull -s subtree https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master > /dev/null 2>&1
-  git subtree push --prefix=wiki https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master > /dev/null 2>&1
-  git push origin HEAD:master > /dev/null 2>&1
+  git pull -s subtree https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master > /dev/null 2>&1;
+  git subtree push --prefix=wiki https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master > /dev/null 2>&1;
+  git push origin HEAD:master > /dev/null 2>&1;
