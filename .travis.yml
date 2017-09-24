@@ -1,4 +1,4 @@
 script:
-  - git pull -s subtree https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master 2>&1;
+  - git pull -s subtree --allow-unrelated-histories https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master 2>&1;
   - git subtree push --prefix=wiki https://$GITHUB_API_KEY@github.com/azerothcore/azerothcore-wotlk.wiki.git master 2>&1;
-  - git push origin HEAD:master 2>&1;
+  - git push https://$GITHUB_API_KEY@github.com/azerothcore/ac-doc.git master 2>&1;
